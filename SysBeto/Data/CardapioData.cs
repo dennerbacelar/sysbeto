@@ -10,6 +10,15 @@ namespace SysBeto.Data
     {
         internal void AdicionarProduto(CardapioDto cardapioDto)
         {
+            try
+            {
+
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
             throw new NotImplementedException();
         }
     }
